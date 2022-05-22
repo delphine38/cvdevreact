@@ -5,6 +5,8 @@ import Coordonnees from './components/Coordonnnees';
 import Delphine from './components/Delphine';
 import Title from './components/Title';
 import Liens from './components/Liens';
+import Experiences from './components/Experiences';
+import Competences from './components/Competences';
 
 function App() {
   return (
@@ -25,9 +27,11 @@ function App() {
         
           <article className="col-4">
             <Coordonnees />
+            <Experiences />
           </article>
           <article className="col-6">
             <Liens />
+            <Competences />
           </article>
         </section>
         
