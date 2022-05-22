@@ -7,7 +7,10 @@ const Coordonnees = ()=> {
             <p>38150 CHANAS <br />
             Région Lyonnaise <br />
             06 32 31 58 36 <br />
-            http://www.linkedin.com/in/delphine-rodriguez/ <br />
+            <a href={"https://www.linkedin.com/in/delphine-rodriguez/"} target="_blank">
+                        http://www.linkedin.com/in/delphine-rodriguez/ </a>
+                    
+        
             delphine38@live.fr </p>
         </div>
     )

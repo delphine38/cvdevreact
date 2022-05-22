@@ -8,7 +8,7 @@ import Imagedelphine from '../images/delphinemai22.jpg';
 const Delphine = () =>{
     return(
         <div>
-            <img src={Imagedelphine} alt="essai react node sql" width="80px" />
+            <img src={Imagedelphine} alt="essai react node sql" width="80px" className="imageDelphine" />
             <h2>Delphine RODRIGUEZ</h2>
         </div>
     )

@@ -7,16 +7,20 @@ import Title from './components/Title';
 import Liens from './components/Liens';
 import Experiences from './components/Experiences';
 import Competences from './components/Competences';
+import Langages from './components/Langages';
+import Formations from './components/Formations';
+import Savoiretre from './components/Savoiretre';
+import CentreInteret from './components/CentreInteret';
 
 function App() {
   return (
     <div className="container">
       <header>
         <section className='blue row m-5'>
-          <article className="col-4 text-center">
+          <article className="col-lg-4 text-center">
             <Delphine />
           </article>
-          <article className="col-6 text-center">
+          <article className="col-lg-6 text-center">
             <Title />
           </article>
         </section>
@@ -25,13 +29,17 @@ function App() {
       <main>
         <section className='row m-5'>
         
-          <article className="col-4">
+          <article className="col-lg-4">
             <Coordonnees />
             <Experiences />
+            <Formations />
           </article>
-          <article className="col-6">
+          <article className="col-lg-6">
             <Liens />
             <Competences />
+            <Langages />
+            <Savoiretre />
+            <CentreInteret />
           </article>
         </section>
         

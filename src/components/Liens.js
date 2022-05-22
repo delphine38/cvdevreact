@@ -3,8 +3,8 @@ import React from "react";
 const  Liens = ()=>{
     return(
         <div>
-            <p>Mon portfolio : <strong>https://portfoliodelphine.netlify.app</strong></p>
-            <p>mon GitHub : <strong>https://github.com/delphine38</strong></p>
+            <p>Mon portfolio : <a href={"https://portfoliodelphine.netlify.app"} target="_blank">https://portfoliodelphine.netlify.app</a><br />
+            mon GitHub : <a href={"https://github.com/delphine38"} target="_blank">https://github.com/delphine38</a></p>
         </div>
     )
 }
