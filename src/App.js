@@ -28,26 +28,39 @@ function App() {
 
       <main>
         <section className='row m-5'>
-        
-          <article className="col-lg-4">
+          <article className="col-lg-6">
             <Coordonnees />
-            <Experiences />
-            <Formations />
           </article>
+
           <article className="col-lg-6">
             <Liens />
+          </article>
+        </section>
+
+
+        <section className='row m-5'>
+          <article className="col-lg-6">
+            <Experiences />
+          </article>
+
+          <article className="col-lg-6">
             <Competences />
+          </article>
+        </section>
+
+        <section className='row m-5'>
+          <article className="col-lg-6">
+            <Formations />
+          </article>
+
+          <article className="col-lg-6">
             <Langages />
             <Savoiretre />
             <CentreInteret />
+
           </article>
         </section>
-        
       </main>
-
-      
-      
-      
     </div>
   );
 }

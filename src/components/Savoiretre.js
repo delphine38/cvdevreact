@@ -2,7 +2,7 @@ import React from "react";
 
 const Savoiretre =()=>{
     return(
-        <div className="m-5">
+        <div>
             <h4>Savoir être</h4>
             <p>✔ Consolider et apprendre de nouvelles fonctionnalités <br />
             ✔ Persévérer dans la Volonté d'amélioration pour une montée en compétences<br />

@@ -5,7 +5,7 @@ import Imagepc from '../images/pc.png'
 
 const Competences = ()=>{
     return(
-        <div className="row m-5">
+        <div className="row">
             <article className="col-lg-9">
             <h4>Compétences</h4>
             <p>html, css, Bootstrap, Javascript, Php <br />

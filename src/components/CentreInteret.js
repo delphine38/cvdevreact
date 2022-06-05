@@ -7,7 +7,7 @@ import Ensemble from '../images/ensemble.jpg';
 
 const CentreInteret = ()=>{
     return(
-        <div className="m-5 row">
+        <div className="row">
             <section className="interet col-8">
             <h4>Centre d'intéret</h4>
             <p>Pédaler dans les sentiers </p>
